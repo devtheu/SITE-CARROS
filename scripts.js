@@ -18,7 +18,7 @@ items.forEach((item) => {
   bgGradients.push(item.getAttribute("data-bg-color"));
 });
 
-// Função para definir o slider e o fundo da página
+//  Função para definir o slider e o fundo da página
 function setSlider() {
   let itemOld = container.querySelector(".list .item.active");
   itemOld.classList.remove("active");
